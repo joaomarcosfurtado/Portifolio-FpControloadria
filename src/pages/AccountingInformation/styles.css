@@ -1,0 +1,192 @@
+#page-article-list {
+  width: 100vw;
+  height: 100vh;
+}
+
+/* -------- Search Items ---------- */
+
+#search-articles {
+  margin-top: 3.2rem;
+}
+
+#search-articles label {
+  color: var(--color-text-in-primary);
+}
+
+#search-articles .input-block {
+  position: relative;
+}
+
+#search-articles .input-block + .input-block {
+  margin-top: 1.4rem;
+}
+
+#search-articles .input-block label {
+  font: 1.4rem;
+}
+
+#search-articles .input-block input {
+  width: 100%;
+  height: 5.6rem;
+  margin-top: 0.8rem;
+  border-radius: 0.8rem;
+  background: var(--color-input-background);
+  border: 1px solid var(--color-line-in);
+  outline: 0;
+  padding: 0 1.6rem;
+  font: 1.6rem Archivo;
+}
+
+#search-articles .input-block:focus-within::after {
+  width: calc(100% - 3.2rem);
+  height: 2px;
+  content: '';
+  background: var(--color-primary-light);
+  position: absolute;
+  left: 1.6rem;
+  right: 1.6rem;
+  bottom: 0;
+}
+
+/* -------- Form ---------- */
+
+#accounting-page-form {
+  width: 100vw;
+  height: 100vh;
+}
+
+#accounting-page-form .page-header .header-content {
+  margin-bottom: 6.4rem;
+}
+
+#accounting-page-form main {
+  background: var(--color-box-base);
+  width: 100%;
+  max-width: 74rem;
+  border-radius: 0.8rem;
+  margin: -3.2rem auto 3.2rem;
+  padding-top: 6.4rem;
+  overflow: hidden;
+}
+
+#accounting-page-form main fieldset {
+  border: 0;
+  padding: 0 2.4rem;
+}
+
+#accounting-page-form main fieldset + fieldset {
+  margin-top: 6.4rem;
+}
+
+#accounting-page-form main fieldset legend {
+  font: 700 2.4rem Archivo; 
+  color: var(--color-text-title);
+  margin-bottom: 2.4rem;
+
+  width: 100%;
+  padding-bottom: 1.6rem;
+  border-bottom: 1px solid var(--color-line-in-white);
+}
+
+#accounting-page-form main footer {
+  padding: 4rem 2.4rem;
+  background: var(--color-box-footer);
+  border-top: 1px solid var(--color-line-in-white);
+}
+
+#accounting-page-form main footer p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+  color: var(--color-text-complement);
+}
+
+#accounting-page-form main footer p img {
+  margin-right: 2rem;
+}
+
+#accounting-page-form .social-medias-homepage-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3.2rem;
+  transition: 0.2s;
+}
+
+#accounting-page-form .social-medias-homepage-footer .linkedin-icon {
+  color: var(--color-text-complement);
+  margin-left: 5px;
+}
+
+#accounting-page-form .social-medias-homepage-footer .whatsapp-icon {
+  color: var(--color-text-complement);
+}
+
+
+#accounting-page-form .social-medias-homepage-footer .linkedin-icon:hover {
+  color: #3f86cd;
+}
+
+#accounting-page-form .social-medias-homepage-footer .whatsapp-icon:hover {
+  color: #3fcd81;
+}
+
+#page-article-list main {
+  margin: 3.2rem auto;
+  width: 90%;
+}
+
+
+@media (min-width: 700px){
+  #page-article-list {
+    max-width: 100vw;
+  }
+
+  #search-articles {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 16px;
+    position: absolute;
+    bottom: -28px;
+  }
+  
+  #search-articles .input-block + .input-block {
+    margin-top: 0;
+  }
+
+  #page-article-list main {
+    max-width: 740px;
+    margin-top: 7rem;
+  }
+
+  #accounting-page-form {
+    max-width: 100vw;
+  }
+
+  #accounting-page-form .page-header .header-content {
+    margin-bottom: 0;
+  }
+
+  #accounting-page-form main fieldset {
+    padding: 0 6.4rem;
+  }
+  
+  #accounting-page-form main footer {
+    padding: 4.0rem 6.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  #accounting-page-form main footer p {
+    justify-content: space-between;
+  }
+
+  #accounting-page-form main footer .social-medias-homepage-footer {
+    width: 20rem;
+    margin-top: 0;
+  }
+
+}
