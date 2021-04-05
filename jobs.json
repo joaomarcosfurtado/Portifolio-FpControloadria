@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "img": "https://abir.org.br/abir/wp-content/uploads/2019/05/logotipo_belaischia.jpg",
+    "image": "https://abir.org.br/abir/wp-content/uploads/2019/05/logotipo_belaischia.jpg",
     "company": "Bela Ischia",
     "jobRole": "Tempo Integral",
     "jobType": "Gerente de Contabilidade",
@@ -9,7 +9,7 @@
   },
   {
     "id": 2,
-    "img": "https://gomidia.com.br/wp-content/uploads/2018/05/logo-soma.jpg",
+    "image": "https://gomidia.com.br/wp-content/uploads/2018/05/logo-soma.jpg",
     "company": "Soma Nutrição Animal",
     "jobRole": "Tempo Integral",
     "jobType": "Gerente de Contabilidade",
