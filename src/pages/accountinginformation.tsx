@@ -57,7 +57,7 @@ function AccountingInformation () {
             </p>
             <div className={styles.socialMediasHomepageFooter}>
             
-            <a href="http://wa.me/+5532984812816">
+            <a href="http://wa.me/+5532984298095">
               <SiWhatsapp className={styles.whatsappIcon}/>
             </a>
 

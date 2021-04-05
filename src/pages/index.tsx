@@ -35,7 +35,7 @@ export default function Home() {
 
         </div>
 
-        <span className="total-connections">
+        <span className="accountingInformationPageClick">
           <Link href="accountinginformation"> Clique e saiba mais sobre nossas atuações </Link>
         </span>
       </div>

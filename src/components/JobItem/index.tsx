@@ -37,7 +37,7 @@ const JobItem: React.FC<JobItemProps> = ({ job }) => {
         </p>
         
 
-        <a href="http://wa.me/+5532984812816" className={styles.jobItemfooterButtonLink}>
+        <a href="http://wa.me/+5532984298095" className={styles.jobItemfooterButtonLink}>
           <button type="button" >
             <img src="/assets/images/icons/whatsapp.svg" alt="WhatsApp"/>
             Entrar em contato
