@@ -1,11 +1,10 @@
-import whatsappIcon from '../../assets/images/icons/whatsapp.svg'
-import './styles.css'
+import styles from '../../styles/components/JobItem.module.css'
 
 interface JobItemProps {
   job : {
     image: string;
     company: string;
-    function: string;
+    jobRole: string;
     jobType: string;
     text: string;
   }
@@ -14,12 +13,12 @@ interface JobItemProps {
 const JobItem: React.FC<JobItemProps> = ({ job }) => {
    
   return(
-    <article className="teacher-item">
+    <article className={styles.jobItem}>
       <header>
-        <img src="https://abir.org.br/abir/wp-content/uploads/2019/05/logotipo_belaischia.jpg" alt={job.company}/>
+        <img src={job.image} alt={job.company}/>
         <div>
           <strong>{job.company}</strong>
-          <span>{job.function}</span>
+          <span>{job.jobRole}</span>
         </div>
       </header>
 
@@ -31,14 +30,19 @@ const JobItem: React.FC<JobItemProps> = ({ job }) => {
 
       <footer>
         <p>
-          Preço/hora
-          <strong>R$ 120,00</strong>
+          Nos siga nas redes Sociais: 
+          <strong>
+            <a href="https://www.linkedin.com/in/francisco-paula/">Linkedin</a> 
+          </strong>
         </p>
+        
 
-        <button type="button">
-          <img src={whatsappIcon} alt="WhatsApp"/>
-          Entrar em contato
-        </button>
+        <a href="http://wa.me/+5532984812816" className={styles.jobItemfooterButtonLink}>
+          <button type="button" >
+            <img src="/assets/images/icons/whatsapp.svg" alt="WhatsApp"/>
+            Entrar em contato
+          </button>
+        </a>
       </footer>
      </article>
   );

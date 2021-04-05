@@ -1,0 +1,115 @@
+#homePageForm {
+  width: 100vw;
+  height: 100vh;
+}
+
+#homePageForm .pageHeader .headerContent {
+  margin-bottom: 6.4rem;
+}
+
+#homePageForm main {
+  background: var(--color-box-base);
+  width: 100%;
+  max-width: 74rem;
+  border-radius: 0.8rem;
+  margin: -3.2rem auto 3.2rem;
+  padding-top: 6.4rem;
+  overflow: hidden;
+}
+
+#homePageForm main fieldset {
+  border: 0;
+  padding: 0 2.4rem;
+}
+
+#homePageForm main fieldset + fieldset {
+  margin-top: 6.4rem;
+}
+
+#homePageForm main fieldset legend {
+  font: 700 2.4rem Archivo; 
+  color: var(--color-text-title);
+  margin-bottom: 2.4rem;
+  /* display: flex;
+  align-items: center;
+  justify-content: space-between; */
+
+  width: 100%;
+  padding-bottom: 1.6rem;
+  border-bottom: 1px solid var(--color-line-in-white);
+}
+
+#homePageForm main footer {
+  padding: 4rem 2.4rem;
+  background: var(--color-box-footer);
+  border-top: 1px solid var(--color-line-in-white);
+}
+
+#homePageForm main footer p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+  color: var(--color-text-complement);
+}
+
+#homePageForm main footer p img {
+  margin-right: 2rem;
+}
+
+#homePageForm .socialMediasHomePageFooter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3.2rem;
+  transition: 0.2s;
+}
+
+#homePageForm .socialMediasHomePageFooter .linkedinIcon {
+  color: var(--color-text-complement);
+  margin-left: 5px;
+}
+
+#homePageForm .socialMediasHomePageFooter .whatsappIcon {
+  color: var(--color-text-complement);
+}
+
+
+#homePageForm .socialMediasHomePageFooter .linkedinIcon:hover {
+  color: #3f86cd;
+}
+
+#homePageForm .socialMediasHomePageFooter .whatsappIcon:hover {
+  color: #3fcd81;
+}
+
+@media (min-width: 700px) {
+  #homePageForm {
+    max-width: 100vw;
+  }
+
+  #homePageForm .pageHeader .headerContent {
+    margin-bottom: 0;
+  }
+
+  #homePageForm main fieldset {
+    padding: 0 6.4rem;
+  }
+  
+  #homePageForm main footer {
+    padding: 4.0rem 6.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  #homePageForm main footer p {
+    justify-content: space-between;
+  }
+
+  #homePageForm main footer .socialMediasHomePageFooter {
+    width: 20rem;
+    margin-top: 0;
+  }
+}

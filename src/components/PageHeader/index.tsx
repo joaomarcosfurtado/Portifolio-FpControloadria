@@ -1,29 +1,19 @@
-import react from 'react';
+import  Link from 'next/link';
+import styles from '../../styles/components/PageHeader.module.css'
 
-import { Link } from 'react-router-dom';
-import logoIMG from '../../assets/images/logo.png';
-import backIcon from '../../assets/images/icons/back.svg';
-
-import './styles.css'
-
-interface PageHeaderProps {
-  title: String;
-  description?: String;
-}
-
-const PageHeader: React.FC<PageHeaderProps> = (props) => {
+function PageHeader (props) {
   return (
-    <header className="page-header">
-        <div className="top-bar-container">
-          <Link to="/">
-            <img src={backIcon} alt=""/>
+    <header className={styles.pageHeader}>
+        <div className={styles.topBarContainer}>
+          <Link href="/">
+            <a ><img src="/assets/images/icons/back.svg" alt=""/></a>
           </Link>
-          <img src={logoIMG} alt="Proffy"/>
+          <img src="/assets/images/logo.png" alt="Proffy"/>
         </div>
 
-        <div className="header-content">
+        <div className={styles.headerContent}>
           <strong>{props.title}</strong>
-          { props.description && <p>{props.description}</p>}
+          {props.description && <p>{props.description}</p>}
           {props.children}
         </div>
         

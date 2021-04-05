@@ -1,0 +1,27 @@
+#carrerList {
+  width: 100vw;
+  height: 100vh;
+}
+
+#carrerList main {
+  margin: 3.2rem auto;
+  width: 90%;
+}
+
+#jobItem:first-child {
+  margin: -6.2rem auto 3.2rem;
+  
+}
+
+@media (min-width: 700px){
+  #carrerList {
+    max-width: 100vw;
+  }
+
+  #carrerList main {
+    padding: 3.2rem 0;
+    max-width: 740px;
+    margin: 0 auto;
+  }
+
+}
