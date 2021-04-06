@@ -1,14 +1,20 @@
 import PageHeader from "../components/PageHeader"
 import { Article } from "../components/Article"
 
-import { FaLinkedinIn } from 'react-icons/fa';
-import { SiWhatsapp } from 'react-icons/si'
-
 import styles from '../styles/pages/AccountingInformation.module.css'
 
 import accountingArticles from '../../accounting.json';
+import ArticleFooter from "../components/ArticleFooter/ArticleFooter";
 
 function AccountingInformation () {
+  // const [article, setArticle] = ({accountingArticles})
+
+  // function openArticleText (id: number) {
+  //   article.map(article => {
+
+  //   })
+  // }
+
   return (
     <div id={styles.pageArticleList} className='container'>
       <PageHeader 
@@ -19,17 +25,17 @@ function AccountingInformation () {
         <form id={styles.searchArticles}>
 
           <div className={styles.inputBlock}>
-            <label htmlFor="subject">Assunto: </label>
+            <label htmlFor="subject">Título </label>
             <input type="text" id="subject"/> 
           </div>  
             
           <div className={styles.inputBlock}>
-            <label htmlFor="week_day">Regra de negócio: </label>
+            <label htmlFor="week_day">Corpo do Texto </label>
             <input type="text" id="week_day"/> 
           </div>  
             
           <div className={styles.inputBlock}>
-            <label htmlFor="time">Ano: </label>
+            <label htmlFor="time">Título e Corpo do Texto </label>
             <input type="text" id="time"/>
           </div>
 
@@ -46,28 +52,13 @@ function AccountingInformation () {
               id = {article.id}
               title={article.title}
               text={article.text}
+              isActive={article.isActive}
             />  
           ))}
 
-          <footer>
-            <p>
-              <img src="/assets/images/icons/warning.svg" alt="Warning Image"></img>
-              Importante <br />
-              Nos siga nas redes sociais!
-            </p>
-            <div className={styles.socialMediasHomepageFooter}>
-            
-            <a href="http://wa.me/+5532984298095">
-              <SiWhatsapp className={styles.whatsappIcon}/>
-            </a>
+       
 
-            <a href="http://www.linkedin.com/in/francisco-paula">
-            <FaLinkedinIn className={styles.linkedinIcon}/>  
-            </a>
-
-            </div>
-          </footer>
-
+        <ArticleFooter />  
 
         </main>
       </div>

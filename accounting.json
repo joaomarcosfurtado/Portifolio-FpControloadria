@@ -2,16 +2,19 @@
   {
     "id": 1,
     "title": "Definição de Custo",
-    "text": "Custo é um gasto relativo ao bem ou serviço utilizado na produção de outros bens ou serviços. Definição do custo de produção dos bens ou serviços vendidos constante no Regulamento do Imposto de Renda (art. 290 do RIR/99 – art. 13 – Decreto-Lei nº 1.598, de 1977): O custo de produção dos bens ou serviços vendidos compreenderá, obrigatoriamente"
+    "text": "Custo é um gasto relativo ao bem ou serviço utilizado na produção de outros bens ou serviços. Definição do custo de produção dos bens ou serviços vendidos constante no Regulamento do Imposto de Renda (art. 290 do RIR/99 – art. 13 – Decreto-Lei nº 1.598, de 1977): O custo de produção dos bens ou serviços vendidos compreenderá, obrigatoriamente",
+    "isActive": true
   },
   {
     "id": 2,
     "title":"O que é Imposto? Quais São Cobrados?",
-    "text": "Como o próprio nome já indica, é algo que é obrigado. O Imposto é um tributo obrigatório cobrado pelo governo. Isso quer dizer que é um valor que você paga e contribui para custear as despesas administrativas do Estado. O não pagamento pode gerar multas e até punição legal. Ao olhar por esse lado até parece algo ruim. Mas se você pensar, sem a cobrança de impostos nenhum país no mundo conseguiria devolver serviços e benefícios para população. É como se você estivesse investindo no governo para que ele possa cuidar dos seus serviços básicos (saúde, educação, segurança, moradia, transporte público)." 
+    "text": "Como o próprio nome já indica, é algo que é obrigado. O Imposto é um tributo obrigatório cobrado pelo governo. Isso quer dizer que é um valor que você paga e contribui para custear as despesas administrativas do Estado. O não pagamento pode gerar multas e até punição legal. Ao olhar por esse lado até parece algo ruim. Mas se você pensar, sem a cobrança de impostos nenhum país no mundo conseguiria devolver serviços e benefícios para população. É como se você estivesse investindo no governo para que ele possa cuidar dos seus serviços básicos (saúde, educação, segurança, moradia, transporte público).",
+    "isActive": true
   },
   {
     "id": 3,
     "title": "Ativo Imobilizado: definição, contabilização e exemplos",
-    "text": "Você pode se perguntar: o que é ativo imobilizado? Bom, o ativo imobilizado de uma empresa são todos os bens destinados à manutenção de suas atividades ou exercidos com essa finalidade, esperando ele seja utilizado por mais de um período. Conhecer e ter controle do imobilizado possibilita que a organização cumpra corretamente sua obrigação fiscal, e ainda permite potencializar a gestão, tornando-a mais competitiva. De acordo com o CPC* 27, considera-se ativo imobilizado um item tangível que: É mantido para uso na produção, fornecimento de mercadorias ou serviços, aluguel a outros, ou, ainda, para fins administrativos; Se espera utilizar por mais de um período."
+    "text": "Você pode se perguntar: o que é ativo imobilizado? Bom, o ativo imobilizado de uma empresa são todos os bens destinados à manutenção de suas atividades ou exercidos com essa finalidade, esperando ele seja utilizado por mais de um período. Conhecer e ter controle do imobilizado possibilita que a organização cumpra corretamente sua obrigação fiscal, e ainda permite potencializar a gestão, tornando-a mais competitiva. De acordo com o CPC* 27, considera-se ativo imobilizado um item tangível que: É mantido para uso na produção, fornecimento de mercadorias ou serviços, aluguel a outros, ou, ainda, para fins administrativos; Se espera utilizar por mais de um período.",
+    "isActive": true
   }
 ]

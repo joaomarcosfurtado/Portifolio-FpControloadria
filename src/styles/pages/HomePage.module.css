@@ -40,50 +40,7 @@
   border-bottom: 1px solid var(--color-line-in-white);
 }
 
-#homePageForm main footer {
-  padding: 4rem 2.4rem;
-  background: var(--color-box-footer);
-  border-top: 1px solid var(--color-line-in-white);
-}
 
-#homePageForm main footer p {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 1.4rem;
-  line-height: 2.4rem;
-  color: var(--color-text-complement);
-}
-
-#homePageForm main footer p img {
-  margin-right: 2rem;
-}
-
-#homePageForm .socialMediasHomePageFooter {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 3.2rem;
-  transition: 0.2s;
-}
-
-#homePageForm .socialMediasHomePageFooter .linkedinIcon {
-  color: var(--color-text-complement);
-  margin-left: 5px;
-}
-
-#homePageForm .socialMediasHomePageFooter .whatsappIcon {
-  color: var(--color-text-complement);
-}
-
-
-#homePageForm .socialMediasHomePageFooter .linkedinIcon:hover {
-  color: #3f86cd;
-}
-
-#homePageForm .socialMediasHomePageFooter .whatsappIcon:hover {
-  color: #3fcd81;
-}
 
 @media (min-width: 700px) {
   #homePageForm {
@@ -98,21 +55,6 @@
     padding: 0 6.4rem;
   }
   
-  #homePageForm main footer {
-    padding: 4.0rem 6.4rem;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-
-  #homePageForm main footer p {
-    justify-content: space-between;
-  }
-
-  #homePageForm main footer .socialMediasHomePageFooter {
-    width: 20rem;
-    margin-top: 0;
-  }
 }
 
 @media screen and (max-width: 700px){

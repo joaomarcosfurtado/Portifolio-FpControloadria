@@ -2,16 +2,19 @@
   {
     "id": 1,
     "title": "Novo trojan rouba quase 900 mil senhas de brasileiros",
-    "text": "a descoberta foi feita pela ISH Tecnologia, empresa brasileira de cibersegurança. O trojan já infectou cerca de 500 mil vítimas no Brasil através de uma campanha de phishing por email, cobrando boletos em atraso. Segundo a ISH, a campanha ainda está ativa e o número de vítimas deve se multiplicar nos próximos dias. As informações são da CISO Advisor."
+    "text": "a descoberta foi feita pela ISH Tecnologia, empresa brasileira de cibersegurança. O trojan já infectou cerca de 500 mil vítimas no Brasil através de uma campanha de phishing por email, cobrando boletos em atraso. Segundo a ISH, a campanha ainda está ativa e o número de vítimas deve se multiplicar nos próximos dias. As informações são da CISO Advisor.",
+    "isActive": true
   },
   {
     "id": 2,
     "title":"Google rebate recente estudo sobre buscas",
-    "text": "Segundo a empresa, o recente estudo da SparkToro, afirmando que a maioria das buscas no Google terminam sem cliques, se baseia em uma metodologia falha e que não compreende como as pessoas realmente utilizam a ferramenta. O Google afirma que, em muitas buscas, as pessoas reformulam suas consultas, estão procurando apenas por fatos rápidos, informações sobre o horário de funcionamento ou telefone de um comércio, e que algumas pesquisas levam diretamente para aplicativos, ao invés de sites. As informações são do blog do Google." 
+    "text": "Segundo a empresa, o recente estudo da SparkToro, afirmando que a maioria das buscas no Google terminam sem cliques, se baseia em uma metodologia falha e que não compreende como as pessoas realmente utilizam a ferramenta. O Google afirma que, em muitas buscas, as pessoas reformulam suas consultas, estão procurando apenas por fatos rápidos, informações sobre o horário de funcionamento ou telefone de um comércio, e que algumas pesquisas levam diretamente para aplicativos, ao invés de sites. As informações são do blog do Google.", 
+    "isActive": true
   },
   {
     "id": 3,
     "title": "Nova pesquisa pode permitir a criação de baterias que recarregam em apenas 10 minutos",
-    "text": "O pesquisador Tao Gao descreveu os processos físicos por trás do “lithium plating”, reação colateral que acontece dentro de uma bateria de íons de lítio, permitindo a previsão da ocorrência desse fenômeno durante o processo de carregamento. Gao acredita que novas tecnologias poderão criar baterias para veículos elétricos que seriam totalmente carregadas cinco vezes mais rápido do que o normal, em pouco mais de 10 minutos, sem risco de perigo ou degradação. As informações são da página de notícias da Faculdade de Engenharia da Universidade de Utah."
+    "text": "O pesquisador Tao Gao descreveu os processos físicos por trás do “lithium plating”, reação colateral que acontece dentro de uma bateria de íons de lítio, permitindo a previsão da ocorrência desse fenômeno durante o processo de carregamento. Gao acredita que novas tecnologias poderão criar baterias para veículos elétricos que seriam totalmente carregadas cinco vezes mais rápido do que o normal, em pouco mais de 10 minutos, sem risco de perigo ou degradação. As informações são da página de notícias da Faculdade de Engenharia da Universidade de Utah.",
+    "isActive": true
   }
 ]

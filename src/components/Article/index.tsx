@@ -4,9 +4,10 @@ interface ArticlesProps {
   id: number;
   title: string;
   text: string;
+  isActive?: boolean;
 }
 
-export function Article ({ id, title, text } : ArticlesProps) {
+export function Article ({ id, title, text, isActive } : ArticlesProps) {
   // const [ articleIsOpen, setArticleIsopen] = useState(false)
   
   // function openArticleText (id: number) {
@@ -16,7 +17,8 @@ export function Article ({ id, title, text } : ArticlesProps) {
   return (
     <fieldset>
       <legend>{title}</legend>
-      <p>{text}</p>
+      { isActive && (<p>{text}</p>) }
+      
     </fieldset>
   );
 }
