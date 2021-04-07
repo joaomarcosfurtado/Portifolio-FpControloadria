@@ -116,8 +116,19 @@
   width: 90%;
 }
 
+/* Article Search Is Empty */
 
 
+.articleSearchIsEmpty {
+  padding: 8rem 2.4rem;
+  display: flex;
+  align-items: center;
+  margin-bottom: 60px;
+}
+
+
+
+/* Responsive */
 
 @media (min-width: 700px){
   #pageArticleList {
@@ -152,6 +163,18 @@
   #accountingPageForm main fieldset {
     padding: 0 6.4rem;
   }
+
+  .articleSearchIsEmpty p, .articleSearchIsEmpty img {
+    margin-left: 30px;
+  }
+  
+  .articleSearchIsEmpty p {
+    font-size: 40px;
+  }
+  
+  .articleSearchIsEmpty img {
+    height: 100px;
+  }
   
 }
 
@@ -159,4 +182,17 @@
   #pageArticleList main{
     width: 100%;
   }
+
+  .articleSearchIsEmpty p{
+    margin-left: 10px;
+  }
+  
+  .articleSearchIsEmpty p {
+    font-size: 20px;
+  }
+  
+  .articleSearchIsEmpty img {
+    height: 70px;
+  }
+  
 }

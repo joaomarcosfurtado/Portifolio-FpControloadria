@@ -18,9 +18,6 @@ interface ArticlesProps {
 
 
 function AccountingInformation () {
-  const [ articleTitle, setArticleTitle ] = useState('');
-  const [ articleContent, setArticleContent ] = useState('');
-  
   const [article, setArticle] = useState<ArticlesProps[]>(() => {
 
     const storagedArticle = accountingArticles;
@@ -31,6 +28,11 @@ function AccountingInformation () {
 
     return []
   })
+  
+  const [ articleTitle, setArticleTitle ] = useState('');
+  const [ articleContent, setArticleContent ] = useState('');
+  const [ isArticleSearchIsEmpty, setIsArticleSearchIsEmpty] = useState(false);
+  
 
   // function openArticleText (id: number) {
   //   article.map(article => {
@@ -62,9 +64,11 @@ function AccountingInformation () {
     
     })
 
+    setArticle(newArticle);
+
     if(newArticle.length > 0) {
-      setArticle(newArticle);
-    } else setArticle(accountingArticles)
+      setIsArticleSearchIsEmpty(false)
+    } else setIsArticleSearchIsEmpty(true)
 
   }
 
@@ -96,13 +100,6 @@ function AccountingInformation () {
               onChange={(e) => setArticleContent(e.target.value)}
             /> 
           </div>  
-            
-          {/* <div className={styles.inputBlock}>
-            <label htmlFor="time">Título e Corpo do Texto </label>
-            <input type="text" id="time"/>
-          </div> */}
-
-         
 
           <div className={styles.inputBlock}>
             <button type="submit" onClick={searchArticles}> Buscar</button>
@@ -124,7 +121,12 @@ function AccountingInformation () {
             />  
           ))}
 
-       
+          { isArticleSearchIsEmpty && 
+            <div className={styles.articleSearchIsEmpty}>
+            <img src="/assets/images/icons/warning.svg" alt=""/>
+            <p>Que pena, a busca não retornou resultados!</p>
+            </div> 
+          } 
 
         <ArticleFooter />  
 
