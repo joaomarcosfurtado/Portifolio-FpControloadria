@@ -68,6 +68,8 @@ function AccountingInformation () {
 
     if(newArticle.length > 0) {
       setIsArticleSearchIsEmpty(false)
+    } else if (articleTitle === '' && articleContent === '') { 
+      setArticle(accountingArticles)
     } else setIsArticleSearchIsEmpty(true)
 
   }
