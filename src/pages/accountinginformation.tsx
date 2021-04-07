@@ -70,6 +70,7 @@ function AccountingInformation () {
       setIsArticleSearchIsEmpty(false)
     } else if (articleTitle === '' && articleContent === '') { 
       setArticle(accountingArticles)
+      setIsArticleSearchIsEmpty(false)
     } else setIsArticleSearchIsEmpty(true)
 
   }
