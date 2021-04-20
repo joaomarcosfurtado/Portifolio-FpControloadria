@@ -1,6 +1,14 @@
-[
+﻿[
   {
     "id": 1,
+    "image": "https://abir.org.br/abir/wp-content/uploads/2019/05/logotipo_belaischia.jpg",
+    "company": "FP Controladoria",
+    "jobRole": "Consultor",
+    "jobType": "Como tudo começou...",
+    "text": "Uma carreira é construída como uma edificação, tijolo por tijolo. Dentro da contabilidade uma parede precisa ser levantada no prumo da legislação, da ética e da responsabilidade. A FP Controladoria é o resultado de vivências práticas no âmbito da contabilidade dentro da indústria. Quando mergulhamos dentro de uma estrutura corporativa, deparamos com muitos cenários que variam entre processos, configuração de sistemas, rotinas não relacionadas a departamentos, tarefas redundantes, dentre outros. O reflexo disso são: Retrabalhos, rupturas nos processos, falhas de comunicação, planilhas ao invés de sistema, falta de conciliação e muito mais. A apresentação dos resultados muitas das vezes não são apreciados e nem são confiáveis para tomada de decisão. A FP Controladoria é uma empresa de consultoria e assessoria em Gestão Empresarial no que tange a área contábil e administrativa, com foco em visão sistêmica, processos e controle, visando promover informações que auxiliem na tomada de decisões e planejamentos estratégicos. “Uma contabilidade bem estruturada torna-se a Controladoria da Empresa”."
+  },
+  {
+    "id": 2,
     "image": "https://abir.org.br/abir/wp-content/uploads/2019/05/logotipo_belaischia.jpg",
     "company": "Bela Ischia",
     "jobRole": "Tempo Integral",
@@ -8,7 +16,7 @@
     "text": "Atuei como gestor da área contábil, presando sempre atender a legislação tributária, mas com foco especial em análise de resultado e apresentação de relatórios Gerenciais, Balanço, GRE Gerencial e DFC demonstrativo de Fluxo de Caixa. A primeira missão foi estruturar um setor contábil, buscando profissionais e formar um time de qualidade, uma equipe eficiente e capaz de atingir os objetivos. O sistema que utilizávamos era o TOTVS Protheus, apesar de minha formação em Ciências contábeis, sempre tive muito atuação na área de sistemas, banco de dados, etc. Através desse conhecimento criamos várias oportunidades de utilizar o sistema com mais profundidade e com mais excelência nas conciliações contábeis. Quanto mais fomos ajustando as parametrizações do sistema mais diminuímos retrabalhos e trabalhos manuais que eram realizados dentro da empresa. Cada dia que passava, mais crescíamos no aspecto organizacional e corporativo. Fiz alguns cursos específicos da TOTVS e me especializei nas configurações de LP (lançamento Padrão), onde configurei a contabilização da empresa unindo o conhecimento contábil e sistêmico, posso garantir que as conciliações ficaram muito mais fáceis a partir de uma configuração bem assertiva. Como gestor, tive a oportunidade de participar do programa PAEX (Parceiros para a Excelência) da fundação Dom Cabral, participei das monitorias, PDD (Programa de desenvolvimento de dirigentes) e desenvolvendo conhecimento na gestão de Marketing e Vendas, Gestão de Processos, Gestão de Pessoas, Gestão de Projetos e Finanças. A aplicação de vários desses conceitos contribuiu ainda mais para o desenvolvimento de nosso trabalho. Nosso foco principal é a visão Contabilidade Gerencial, gerando informações úteis para a tomada de decisão."
   },
   {
-    "id": 2,
+    "id": 3,
     "image": "https://gomidia.com.br/wp-content/uploads/2018/05/logo-soma.jpg",
     "company": "Soma Nutrição Animal",
     "jobRole": "Tempo Integral",
