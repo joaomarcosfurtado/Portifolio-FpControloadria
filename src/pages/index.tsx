@@ -1,9 +1,14 @@
 import Link from 'next/link'
+import Head from "next/head";
 
 export default function Home() {
   return (
    
     <div id="page-landing">  
+
+      <Head>
+        <title>FP Controladoria | Sua Solução para controle</title>
+      </Head>
       
       <div id="page-landing-content" className="container">
         <div className="logo-container">

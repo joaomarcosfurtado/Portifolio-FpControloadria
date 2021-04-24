@@ -7,7 +7,6 @@ export default class MyDocument extends Document {
         <Head>
           <link rel="preconnect" href="https://fonts.gstatic.com"/>
           <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;700&family=Poppins&display=swap" rel="stylesheet" />
-          <title>FP Controladoria | Sua Solução para controle</title>
         </Head>
         <body>
           <Main />

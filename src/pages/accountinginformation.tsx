@@ -7,7 +7,7 @@ import styles from '../styles/pages/AccountingInformation.module.css'
 
 import accountingArticles from '../../accounting.json';
 import ArticleFooter from "../components/ArticleFooter/ArticleFooter";
-import ReactDOM from "react-dom";
+import Head from "next/head";
 
 interface ArticlesProps {
   id: number;
@@ -83,6 +83,9 @@ function AccountingInformation () {
         title="Veja algumas áreas em que atuamos"
         description="Você pode escolher a que mais se aplica em sua empresa"
       >
+        <Head>
+          <title>FP | Informações Contábeis</title>
+        </Head>
         
         <form id={styles.searchArticles}>
 
