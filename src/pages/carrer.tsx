@@ -1,22 +1,26 @@
-import jobs from '../../jobs.json';
-
-
 import PageHeader from "../components/PageHeader";
 import JobItem from "../components/JobItem";
 
 import styles from '../styles/pages/Carrer.module.css'
+import Head from "next/head";
 
 function Carrer () {
   return (
-    <div id={styles.carrerList} className='container'>
-      <PageHeader title="Essas são minhas experiências"></PageHeader>
+   
+    <>
+      <Head>
+        <title>FP | Nossa História </title>
+      </Head>
 
-      <main>
-        {jobs.map(job => {
-          return <JobItem key={job.id} job={job}/>
-        })}    
-      </main>
-    </div>
+      <div id={styles.carrerList} className='container'>
+        
+        <PageHeader title="Essas são minhas experiências"></PageHeader>
+
+        <main>
+          <JobItem />
+        </main>
+      </div>
+    </>
   )
 }
 
